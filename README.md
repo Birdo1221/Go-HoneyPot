@@ -1,9 +1,6 @@
 # Go-HoneyPot: SSH & SMB Honeypots in Go
 ### Please Consider using fail2ban as additional protection / cover
 
-![GitHub](https://img.shields.io/github/license/Birdo1221/Go-HoneyPot)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/Birdo1221/Go-HoneyPot)
-
 This repository contains two security honeypot implementations written in Go:
 - **SSH Honeypot** (`sshpot.go`) - Detects brute force attempts against SSH servers
 - **SMB Honeypot** (`smbpot.go`) - Detects unauthorized SMB access attempts
