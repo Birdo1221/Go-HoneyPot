@@ -65,6 +65,6 @@ SMB Honeypot: Logs to smb_attempts.log in the same directory
 |  Run on a dedicated server or VM
 |  Ensure your system is properly secured before deploying
 |  Monitor resource usage
-|  Don't run on systems with sensitive data
+|  Dont run on systems with sensitive data
 |  Use firewall rules to restrict access if needed
 ```
