@@ -1,9 +1,9 @@
 # Go-HoneyPot: SSH & SMB Honeypots in Go
 ### Please Consider using fail2ban as additional protection / cover
-
-
-This code was built to capitalize [AbuseIPDB API](https://www.abuseipdb.com/user/137416).   <sup> Link shows my Reports by Me </sup>
-
+```
+<sup> Link shows my Reports by Me </sup>
+This code was built to capitalize [AbuseIPDB API](https://www.abuseipdb.com/user/137416).  
+```
 
 This repository contains two security honeypot implementations written in Go:
 - **SSH Honeypot** (`sshpot.go`) - Detects brute force attempts against SSH servers
