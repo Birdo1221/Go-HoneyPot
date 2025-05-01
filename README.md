@@ -48,20 +48,21 @@ This repository contains two security honeypot implementations written in Go:
 ```
 
 > ## Build Instructions
-```bash
-git clone https://github.com/Birdo1221/Go-HoneyPot.git
-cd Go-HoneyPot
-go build sshpot.go + go build smbpot.go
-```
+> ```bash
+> git clone https://github.com/Birdo1221/Go-HoneyPot.git
+> cd Go-HoneyPot
+> go build sshpot.go + go build smbpot.go
+> ```
 
-# Running with root privileges (required for iptables):
+> ## Running with root privileges (required for iptables):
 
-```bash
-# Run SSH + SMB honeypot
-sudo ./sshpot
-sudo ./smbpot
-```
-# Running with As a background process:
+> ```bash
+> # Run SSH + SMB honeypot
+> sudo ./sshpot
+> sudo ./smbpot
+> ```
+
+> ## Running with As a background process:
 
 > ```bash
 > # Run SSH Honeypot in the background
@@ -71,18 +72,18 @@ sudo ./smbpot
 > nohup sudo ./smbpot & 
 > ```
 
- <sup> An alternative of nohup would be [**`screen`**](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/).  if you would like to install that and use that instead</sup>
+<sup> An alternative of nohup would be [**`screen`**](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/).  if you would like to install that and use that instead</sup>
 
-> # Logging and User Warnings:
-> # These honeypots are designed to attract malicious traffic by actively attempting to capture unauthorized login credentials and related activity.
+> ## Logging and User Warnings:
+> ## These honeypots are designed to attract malicious traffic by actively attempting to capture unauthorized login credentials and related activity.
 
-```bash
-SSH Honeypot: Outputs to stdout/stderr
-SMB Honeypot: Logs to smb_attempts.log in the same directory
-
-|  Run on a dedicated server or VM
-|  Ensure your system is properly secured before deploying
-|  Monitor resource usage
-|  Dont run on systems with sensitive data
-|  Use firewall rules to restrict access if needed
-```
+> ```bash
+> SSH Honeypot: Outputs to stdout/stderr
+> SMB Honeypot: Logs to smb_attempts.log in the same directory
+> 
+> |  Run on a dedicated server or VM
+> |  Ensure your system is properly secured before deploying
+> |  Monitor resource usage
+> |  Dont run on systems with sensitive data
+> |  Use firewall rules to restrict access if needed
+> ```
