@@ -61,10 +61,16 @@ go build sshpot.go + go build smbpot.go
 sudo ./sshpot
 sudo ./smbpot
 ```
-# Running with As a background process privileges (required for):
+# Running with As a background process:
 
 ```bash
+# Run SSH Honeypot in the background
+nohup sudo ./sshpot &
+
+# Run SMB Honeypot in the background
+nohup sudo ./smbpot & 
 ```
+> <sup> An alternative of nohup would be [**`screen`**](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/).  if you would like to install that and use that instead</sup>
 
 > # Logging and User Warnings:
 > # These honeypots are designed to attract malicious traffic by actively attempting to capture unauthorized login credentials and related activity.
