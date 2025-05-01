@@ -15,29 +15,34 @@ This repository contains two security honeypot implementations written in Go:
 ## Features
 
 ### SSH Honeypot
+```
 - Listens on multiple common SSH ports (2222, 2200, 22, etc.)
 - Simulates OpenSSH server behavior
 - Logs all connection attempts
 - Reports to AbuseIPDB (category 18 - SSH, 22 - Brute Force)
 - 30-minute IP bans using iptables
 - Prevents duplicate reports within 15 minutes
+```
 
 ### SMB Honeypot
+```
 - Listens on SMB port (445)
 - Simulates SMB protocol negotiation
 - Detailed logging to `smb_attempts.log`
 - Reports to AbuseIPDB (categories 14 - SMB, 15 - Brute Force, 18 - SSH)
 - 30-minute IP bans using iptables
 - Dedicated log file with timestamps
+```
 
 ## Installation
-
 ### Prerequisites
+```
 - Linux system
 - Go 1.16+ (to build)
 - iptables (for IP banning)
 - curl (for AbuseIPDB reporting)
 - AbuseIPDB API key (free tier available)
+```
 
 ### Build Instructions
 ```bash
