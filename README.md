@@ -10,15 +10,13 @@ This repository contains two security honeypot implementations written in Go:
 - **SSH Honeypot** (**`sshpot.go`**) - Detects brute force attempts against SSH servers
 - **SMB Honeypot** ( **`smbpot.go`**) - Detects unauthorized SMB access attempts
 
-> Both honeypots automatically report malicious IPs to AbuseIPDB and implement temporary bans using **`iptables`**.
+> Both honeypots automatically report the IP/(S) to AbuseIPDB and temporary bans using **`iptables`**.
 
  # Features
 
 > ## SSH Honeypot
 
-</sup>
 ```
-
 - Listens on multiple common SSH ports (2222, 2200, 22, etc.)
 - Simulates OpenSSH server behavior
 - Logs all connection attempts
@@ -27,8 +25,6 @@ This repository contains two security honeypot implementations written in Go:
 - Prevents duplicate reports within 15 minutes
 
 ```
-</sup>
-
 >## SMB Honeypot
 ```
 - Listens on SMB port (445)
@@ -41,20 +37,21 @@ This repository contains two security honeypot implementations written in Go:
 
 > ## Installation
 ## Prerequisites
+
+> <sup> Before you begin, ensure you have the following dependencies installed: </sup>
 ```
-- Linux system
-- Go 1.16+ (to build)
-- iptables (for IP banning)
-- curl (for AbuseIPDB reporting)
-- AbuseIPDB API key (free tier available)
+- **Linux system**
+- **Go 1.16+** (required to build the project)
+- **iptables** (used for IP banning)
+- **curl** (for reporting to AbuseIPDB)
+- **AbuseIPDB API key** (Free tier available, sign up on their website)
 ```
 
 > ## Build Instructions
 ```bash
 git clone https://github.com/Birdo1221/Go-HoneyPot.git
 cd Go-HoneyPot
-go build sshpot.go
-go build smbpot.go
+go build sshpot.go + go build smbpot.go
 ```
 
 # Running with root privileges (required for iptables):
