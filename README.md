@@ -12,9 +12,9 @@ This repository contains two security honeypot implementations written in Go:
 
 > Both honeypots automatically report malicious IPs to AbuseIPDB and implement temporary bans using **`iptables`**.
 
-## Features
+ ## Features
 
-### SSH Honeypot
+> ### SSH Honeypot
 ```
 - Listens on multiple common SSH ports (2222, 2200, 22, etc.)
 - Simulates OpenSSH server behavior
