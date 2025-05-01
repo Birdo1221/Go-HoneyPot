@@ -1,5 +1,7 @@
-# Go-HoneyPot: SSH & SMB Honeypots in Go
-### Please Consider using fail2ban as additional protection / cover
+# Go-HoneyPot: Lightweight SSH & SMB Honeypots in Go
+
+
+### ⚠️ Note: This tool provides basic detection of abusive scanning and unauthorized login attempts. For enhanced protection, it is strongly recommended to use **Fail2Ban** or other **trusted** security solutions alongside this tool.
 
 
 This code was built to capitalize [AbuseIPDB API](https://www.abuseipdb.com/user/137416).  
