@@ -7,8 +7,8 @@
 > <sup> — Reports I’ve submitted to AbuseIPDB. Check them out if you're curious or just looking for an example.</sup>
 
 This repository contains two security honeypot implementations written in Go:
-- **SSH Honeypot** (`sshpot.go`) - Detects brute force attempts against SSH servers
-- **SMB Honeypot** (`smbpot.go`) - Detects unauthorized SMB access attempts
+- **SSH Honeypot** (**`sshpot.go`**) - Detects brute force attempts against SSH servers
+- **SMB Honeypot** ( **`smbpot.go`**) - Detects unauthorized SMB access attempts
 
 > Both honeypots automatically report malicious IPs to AbuseIPDB and implement temporary bans using **`iptables`**.
 
