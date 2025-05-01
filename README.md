@@ -3,7 +3,7 @@
 
 > <sup> ⚠️ Note: This tool provides basic detection of abusive scanning and unauthorized login attempts. For enhanced protection, it is strongly recommended to use **Fail2Ban** or other **trusted** security solutions alongside this tool. </sup>
 
-> This code was built to capitalize [AbuseIPDB API](https://www.abuseipdb.com/user/137416).  
+> <sup> This code was built to capitalize [AbuseIPDB API](https://www.abuseipdb.com/user/137416). </sup>  
 > <sup> — Reports I’ve submitted to AbuseIPDB. Check them out if you're curious or just looking for an example.</sup>
 
 This repository contains two security honeypot implementations written in Go:
