@@ -3,7 +3,7 @@
 
 
 This code was built to capitalize [AbuseIPDB API](https://www.abuseipdb.com/user/137416).  
-> <sup>— This [link](https://www.abuseipdb.com/user/reports/...) shows reports submitted by me on AbuseIPDB. Feel free to check it out if you're curious or just browsing for fun.</sup>
+> <sup>— This [link] shows reports submitted by me on AbuseIPDB. Feel free to check it out if you're curious or just browsing for fun.</sup>
 
 This repository contains two security honeypot implementations written in Go:
 - **SSH Honeypot** (`sshpot.go`) - Detects brute force attempts against SSH servers
