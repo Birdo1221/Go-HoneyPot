@@ -72,11 +72,8 @@ This repository contains two security honeypot implementations written in Go:
 > nohup sudo ./smbpot & 
 > ```
 
-<sup> An alternative of nohup would be [**`screen`**](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/).  if you would like to install that and use that instead
-
-  Logging and User Warnings:
-  These honeypots are designed to attract malicious traffic by actively attempting to capture unauthorized login credentials and related activity.
-</sup>
+<sup> An alternative of nohup would be [**`screen`**](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/).  if you would like to install that and use that instead   Logging and User Warnings:
+  These honeypots are designed to attract malicious traffic by actively attempting to capture unauthorized login credentials and related activity.</sup>
 
 
 > ```bash
