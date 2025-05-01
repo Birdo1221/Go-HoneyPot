@@ -15,13 +15,16 @@ This repository contains two security honeypot implementations written in Go:
  # Features
 
 > ## SSH Honeypot
+
 ```
+ <sup>
 - Listens on multiple common SSH ports (2222, 2200, 22, etc.)
 - Simulates OpenSSH server behavior
 - Logs all connection attempts
 - Reports to AbuseIPDB (category 18 - SSH, 22 - Brute Force)
 - 30-minute IP bans using iptables
 - Prevents duplicate reports within 15 minutes
+ </sup>
 ```
 
 >## SMB Honeypot
