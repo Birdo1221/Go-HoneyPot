@@ -24,7 +24,7 @@ This repository contains two security honeypot implementations written in Go:
 - Prevents duplicate reports within 15 minutes
 ```
 
-### SMB Honeypot
+>### SMB Honeypot
 ```
 - Listens on SMB port (445)
 - Simulates SMB protocol negotiation
@@ -34,7 +34,7 @@ This repository contains two security honeypot implementations written in Go:
 - Dedicated log file with timestamps
 ```
 
-## Installation
+> ### Installation
 ### Prerequisites
 ```
 - Linux system
@@ -44,7 +44,7 @@ This repository contains two security honeypot implementations written in Go:
 - AbuseIPDB API key (free tier available)
 ```
 
-### Build Instructions
+> ### Build Instructions
 ```bash
 git clone https://github.com/Birdo1221/Go-HoneyPot.git
 cd Go-HoneyPot
@@ -52,7 +52,7 @@ go build sshpot.go
 go build smbpot.go
 ```
 
-Run with root privileges (required for iptables):
+## Run with root privileges (required for iptables):
 
 ```bash
 # Run SSH honeypot
@@ -62,8 +62,8 @@ sudo ./sshpot
 sudo ./smbpot
 ```
 
-Logging + Warnings
-These honeypots are designed to attract malicious traffic.
+> ## Logging and User Warnings:
+> ## These honeypots are designed to attract malicious traffic by actively attempting to capture unauthorized login credentials and related activity.
 
 ```bash
 SSH Honeypot: Outputs to stdout/stderr
