@@ -63,13 +63,14 @@ sudo ./smbpot
 ```
 # Running with As a background process:
 
-```bash
-# Run SSH Honeypot in the background
-nohup sudo ./sshpot &
+> ```bash
+> # Run SSH Honeypot in the background
+> nohup sudo ./sshpot &
+> 
+> # Run SMB Honeypot in the background
+> nohup sudo ./smbpot & 
+> ```
 
-# Run SMB Honeypot in the background
-nohup sudo ./smbpot & 
-```
  <sup> An alternative of nohup would be [**`screen`**](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/).  if you would like to install that and use that instead</sup>
 
 > # Logging and User Warnings:
