@@ -79,8 +79,8 @@ These honeypots are designed to attract malicious traffic by actively attempting
 
 
 > ```bash
-> SSH Honeypot: Outputs to stdout/stderr
-> SMB Honeypot: Logs to smb_attempts.log in the same directory
+> `SSH Honeypot: Outputs to stdout/stderr`
+> `SMB Honeypot: Logs to smb_attempts.log in the same directory`
 > 
 > |  Run on a dedicated server or VM
 > |  Ensure your system is properly secured before deploying
