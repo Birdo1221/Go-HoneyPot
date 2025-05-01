@@ -12,9 +12,9 @@ This repository contains two security honeypot implementations written in Go:
 
 > Both honeypots automatically report malicious IPs to AbuseIPDB and implement temporary bans using **`iptables`**.
 
- ## Features
+ # Features
 
-> ### SSH Honeypot
+> ## SSH Honeypot
 ```
 - Listens on multiple common SSH ports (2222, 2200, 22, etc.)
 - Simulates OpenSSH server behavior
@@ -24,7 +24,7 @@ This repository contains two security honeypot implementations written in Go:
 - Prevents duplicate reports within 15 minutes
 ```
 
->### SMB Honeypot
+>## SMB Honeypot
 ```
 - Listens on SMB port (445)
 - Simulates SMB protocol negotiation
@@ -34,8 +34,8 @@ This repository contains two security honeypot implementations written in Go:
 - Dedicated log file with timestamps
 ```
 
-> ### Installation
-### Prerequisites
+> ## Installation
+## Prerequisites
 ```
 - Linux system
 - Go 1.16+ (to build)
@@ -44,7 +44,7 @@ This repository contains two security honeypot implementations written in Go:
 - AbuseIPDB API key (free tier available)
 ```
 
-> ### Build Instructions
+> ## Build Instructions
 ```bash
 git clone https://github.com/Birdo1221/Go-HoneyPot.git
 cd Go-HoneyPot
@@ -52,18 +52,20 @@ go build sshpot.go
 go build smbpot.go
 ```
 
-## Run with root privileges (required for iptables):
+# Running with root privileges (required for iptables):
 
 ```bash
-# Run SSH honeypot
+# Run SSH + SMB honeypot
 sudo ./sshpot
-
-# Run SMB honeypot
 sudo ./smbpot
 ```
+# Running with As a background process privileges (required for):
 
-> ## Logging and User Warnings:
-> ## These honeypots are designed to attract malicious traffic by actively attempting to capture unauthorized login credentials and related activity.
+```bash
+```
+
+> # Logging and User Warnings:
+> # These honeypots are designed to attract malicious traffic by actively attempting to capture unauthorized login credentials and related activity.
 
 ```bash
 SSH Honeypot: Outputs to stdout/stderr
