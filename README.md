@@ -161,7 +161,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Contributions are welcome! Please feel free to ask for a Pull Request.
 
 ## 📬 Contact
+<p align="center">
 [Website](https://birdo.uk)
+</p>
 
 ---
 
