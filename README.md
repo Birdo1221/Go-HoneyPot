@@ -160,13 +160,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Contributions are welcome! Please feel free to ask for a Pull Request.
 
-## 📬 Contact
-<p align="center">
-[Website](https://birdo.uk)
-</p>
-
----
-
 <p align="center">
   Made with ❤️ by <a href="https://github.com/Birdo1221">Birdo1221</a>
 </p>
