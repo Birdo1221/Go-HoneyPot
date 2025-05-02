@@ -7,7 +7,7 @@
 [![AbuseIPDB](https://img.shields.io/badge/Protected%20by-AbuseIPDB-green)](https://www.abuseipdb.com/user/137416)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Birdo1221/Go-HoneyPot/assets/honeypot-logo.png" alt="Go-HoneyPot Logo" width="200" height="200">
+  <img src="https://github.com/Birdo1221/Go-HoneyPot/blob/main/HoneyPot.jpg" alt="Go-HoneyPot Logo" width="200" height="200">
 </p>
 
 ## 📋 Overview
