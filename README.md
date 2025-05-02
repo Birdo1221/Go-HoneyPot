@@ -120,7 +120,7 @@ nohup sudo ./smbpot &
 
 ## ⚠️ Important Warnings
 
-These honeypots are designed to attract malicious traffic by simulating vulnerable services. Please consider the following:
+These honeypots are designed to attract malicious traffic by simulating public services. Please consider the following:
 
 - **Dedicated Environment**: Run on a dedicated server or VM, not your primary system
 - **System Security**: Ensure your system is properly secured before deploying
