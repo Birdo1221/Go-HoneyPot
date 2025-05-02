@@ -161,8 +161,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Contributions are welcome! Please feel free to ask for a Pull Request.
 
 ## 📬 Contact
-
-Project Link: [https://github.com/Birdo1221/Go-HoneyPot](https://github.com/Birdo1221/Go-HoneyPot)
+[Website](https://birdo.uk)
 
 ---
 
