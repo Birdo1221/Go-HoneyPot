@@ -21,6 +21,8 @@ Both honeypots automatically report offending IPs to [AbuseIPDB](https://www.abu
 
 > ⚠️ **Security Note**: This tool provides basic detection of abusive scanning and unauthorized login attempts. For enhanced protection, it is strongly recommended to use **Fail2Ban** or other **trusted** security solutions alongside this tool.
 
+> Need Improvements are based on (1.) Error handling and making sure its clean and effective along with (2.) the protocol simulation of both SMB and SSH to be improve greatly, Even tho its still captures a connection base on that port as well, it might help just clean up.
+
 ## ✨ Features
 
 ### SSH Honeypot (`sshpot.go`)
