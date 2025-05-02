@@ -21,7 +21,10 @@ Both honeypots automatically report offending IPs to [AbuseIPDB](https://www.abu
 
 > ⚠️ **Security Note**: This tool provides basic detection of abusive scanning and unauthorized login attempts. For enhanced protection, it is strongly recommended to use **Fail2Ban** or other **trusted** security solutions alongside this tool.
 
-> Need Improvements are based on (1.) Error handling and making sure its clean and effective along with (2.) the protocol simulation of both SMB and SSH to be improve greatly, Even tho its still captures a connection base on that port as well, it might help just clean up.
+Improvements are needed in two key areas:
+
+> Error Handling: Ensuring that error handling is clean, effective, and comprehensive to minimize issues and improve system stability.
+> Protocol Simulation (SMB and SSH): Enhancing the simulation of both SMB and SSH protocols by adding more banners and improving request detection. While the system still captures connections based on the respective ports, refining these aspects will lead to a cleaner, more accurate simulation.
 
 ## ✨ Features
 
