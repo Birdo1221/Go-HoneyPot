@@ -23,8 +23,9 @@ Both honeypots automatically report offending IPs to [AbuseIPDB](https://www.abu
 
 Improvements are needed in two key areas:
 
-> Error Handling: Ensuring that error handling is clean, effective, and comprehensive to minimize issues and improve system stability.
-> Protocol Simulation (SMB and SSH): Enhancing the simulation of both SMB and SSH protocols by adding more banners and improving request detection. While the system still captures connections based on the respective ports, refining these aspects will lead to a cleaner, more accurate simulation.
+> 1. Error Handling: Ensuring that error handling is clean, effective, and comprehensive to minimize issues and improve system stability.
+
+> 2. Protocol Simulation (SMB and SSH): Enhancing the simulation of both SMB and SSH protocols by adding more banners and improving request detection. While the system still captures connections based on the respective ports, refining these aspects will lead to a cleaner, more accurate simulation.
 
 ## ✨ Features
 
